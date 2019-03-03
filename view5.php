@@ -13,7 +13,7 @@ print nl2br($_POST["honbun"],false);
     
  ?>
 
-<div style="font-size:14px">テキスト送信のテスト</div>
+<div style="font-size:14px">テキスト送信の</div>
 <from name="form1" method="post" action="textsentadd.php">
     名前:<br>
     <input type="text" name="onamae" value="<?=$_POST["onamae"]?>">
